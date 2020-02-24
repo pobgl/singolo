@@ -28,12 +28,12 @@ header {
 .logo {
   display: flex;
   margin: auto;
-  letter-spacing: -1.1px;
+  letter-spacing: -0.5px;
   margin-left: 40px;
   font-size: 25px;
   line-height: 25px;
   color: white;
-  font-weight: 400;
+  font-weight: 700;
   
 }
 
@@ -49,7 +49,7 @@ nav {
     justify-content: space-between;
     width: 372px;
     margin-right: 40px;
-    margin-top: 11px;
+    margin-top: 10px;
     line-height: 25px;
 }
 
@@ -111,7 +111,7 @@ nav {
 
 .wrapper_services {       
   margin-left: 40px;
-  margin-top: 20px;
+  margin-top: 6px;
   height: 429px;
   justify-content: space-between;
   padding-top: 29px;
@@ -119,16 +119,30 @@ nav {
   border-bottom: rgb(234, 103, 107) 6px solid;
 }
 
-.services {
-margin-bottom: 37px;  
+.services_header {
+  margin-bottom: 18px;
+  letter-spacing: -0.1px; 
+  font-size: 30px;
+  font-weight: 900;
+   
 }
+
+.services p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px; 
+  height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 .service_data {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-right: 20px;
-  margin-bottom: 33px;
+  margin-top: 36px;
 }
 
 .service_types {
@@ -145,15 +159,24 @@ margin-bottom: 37px;
   display: flex;
   flex-direction: column;
   margin-left: 20px;
-  width: 210px;
-  height: 98px;
-  overflow: hidden;
-  text-overflow: ellipsis;  
+  width: 216px;
+  height: 110px;
 }
 
 .service_text h3 {
+  font-size: 18px;
+  font-weight: 700;
   margin: auto;
   margin-top: 6px;
   margin-left: 1px;
   height: 20px;
-  }
+}
+
+.service_text p {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 22px; 
+}
