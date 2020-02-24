@@ -10,41 +10,52 @@ body {
 }
 
 header {
+    height: 89px;  
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-top: 29px;
-    padding-bottom: 30px;
-  
+    
+   
+    
     font-weight: 700;
     text-transform: uppercase;
     background-color: rgb(51, 49, 46);
     border-bottom: rgb(234, 103, 107) 6px solid;
 }
+
+
  
 .logo {
-  letter-spacing: -0.5px;
-  margin-left: 20px;
+  display: flex;
+  margin: auto;
+  letter-spacing: -1.1px;
+  margin-left: 40px;
   font-size: 25px;
   line-height: 25px;
   color: white;
   font-weight: 400;
+  
 }
 
 .logo_dot {
+  display: flex;
+  margin: auto;
   color: #f06c64;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    margin-right: 20px;
+    justify-content: space-between;
+    width: 372px;
+    margin-right: 40px;
+    margin-top: 11px;
     line-height: 25px;
 }
 
 .nav_list {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   font-size: 12px;
   color: white;
   font-weight: 400;
@@ -52,7 +63,9 @@ nav {
 }
 
 .nav_dot {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  margin-top: -9px;
   color: white;
   font-weight: 400;
 }
@@ -60,13 +73,24 @@ nav {
 .wrapper_slider {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: rgb(199, 95, 34);
   border-bottom: rgb(234, 103, 107) 6px solid;
-  height: 600px;
+  height: 594px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  width: 797px;
+  margin-top: 10px;
+  margin-right: 41px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .arrow_left {
-  margin: 0;
+  margin-left: 42px;
   padding: 0;
   border: 0;
   outline: none;
@@ -76,7 +100,8 @@ nav {
 
 .arrow_right {
   transform: rotate(180deg);
-  margin: 0;
+  margin-right: 40px;
+  margin-bottom: 5px;
   padding: 0;
   border: 0;
   outline: none;
@@ -85,10 +110,17 @@ nav {
 }
 
 .wrapper_services {       
+  margin-left: 40px;
+  margin-top: 20px;
+  height: 429px;
   justify-content: space-between;
   padding-top: 29px;
   padding-bottom: 30px;
   border-bottom: rgb(234, 103, 107) 6px solid;
+}
+
+.services {
+margin-bottom: 37px;  
 }
 
 .service_data {
@@ -103,6 +135,7 @@ nav {
   display: flex;
   flex-direction: row;
   width: 300px;  
+  height: 90px;
   flex-wrap: wrap;
   margin-right: 20px;
   margin-bottom: 33px;
@@ -111,5 +144,16 @@ nav {
 .service_text {
   display: flex;
   flex-direction: column;
-  width: 230px;  
+  margin-left: 20px;
+  width: 210px;
+  height: 98px;
+  overflow: hidden;
+  text-overflow: ellipsis;  
 }
+
+.service_text h3 {
+  margin: auto;
+  margin-top: 6px;
+  margin-left: 1px;
+  height: 20px;
+  }
