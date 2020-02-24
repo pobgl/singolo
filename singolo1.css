@@ -19,6 +19,7 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     background-color: rgb(51, 49, 46);
+    border-bottom: rgb(234, 103, 107) 6px solid;
 }
  
 .logo {
@@ -57,15 +58,37 @@ nav {
 }
   
 .wrapper_slider {
+  display: flex;
+  flex-direction: row;
   background-color: rgb(199, 95, 34);
   border-bottom: rgb(234, 103, 107) 6px solid;
   height: 600px;
+}
+
+.arrow_left {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.arrow_right {
+  transform: rotate(180deg);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 .wrapper_services {       
   justify-content: space-between;
   padding-top: 29px;
   padding-bottom: 30px;
+  border-bottom: rgb(234, 103, 107) 6px solid;
 }
 
 .service_data {
@@ -77,7 +100,16 @@ nav {
 }
 
 .service_types {
-  width: 300px;
+  display: flex;
+  flex-direction: row;
+  width: 300px;  
+  flex-wrap: wrap;
   margin-right: 20px;
   margin-bottom: 33px;
+}
+
+.service_text {
+  display: flex;
+  flex-direction: column;
+  width: 230px;  
 }
