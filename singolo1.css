@@ -19,8 +19,8 @@ header {
     
     font-weight: 700;
     text-transform: uppercase;
-    background-color: rgb(51, 49, 46);
-    border-bottom: rgb(234, 103, 107) 6px solid;
+    background-color: rgb(45, 48, 58);
+    border-bottom: rgb(50, 55, 70) 6px solid;
 }
 
 
@@ -40,7 +40,7 @@ header {
 .logo_dot {
   display: flex;
   margin: auto;
-  color: #f06c64;
+  color: rgb(201, 96, 92);
 }
 
 nav {
@@ -53,6 +53,15 @@ nav {
     line-height: 25px;
 }
 
+.home {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: rgb(240, 108, 100);
+  font-weight: 400;
+  cursor: pointer; 
+}
+
 .nav_list {
   display: flex;
   align-items: center;
@@ -62,11 +71,15 @@ nav {
   cursor: pointer;
 }
 
+.nav_list:hover {
+  color: rgb(240, 108, 100);
+}
+
 .nav_dot {
   display: flex;
   align-items: center;
   margin-top: -9px;
-  color: white;
+  color: rgb(73, 78, 98);
   font-weight: 400;
 }
   
@@ -74,7 +87,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: rgb(199, 95, 34);
+  background-color: rgb(240, 108, 100);
   border-bottom: rgb(234, 103, 107) 6px solid;
   height: 594px;
 }
@@ -110,16 +123,18 @@ nav {
 }
 
 .wrapper_services {       
-  margin-left: 40px;
-  margin-top: 6px;
-  height: 429px;
+  height: 435px;
   justify-content: space-between;
   padding-top: 29px;
   padding-bottom: 30px;
-  border-bottom: rgb(234, 103, 107) 6px solid;
+  color: rgb(102, 109, 137);
+  background-color: rgb(242, 242, 242);
+  border-bottom: white 6px solid;
 }
 
 .services_header {
+  margin-left: 40px;
+  margin-top: 30px;
   margin-bottom: 18px;
   letter-spacing: -0.1px; 
   font-size: 30px;
@@ -128,16 +143,19 @@ nav {
 }
 
 .services p {
+  margin-left: 40px;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px; 
   height: 60px;
   overflow: hidden;
   text-overflow: ellipsis;
+  width: 950px;
 }
 
 
 .service_data {
+  margin-left: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
